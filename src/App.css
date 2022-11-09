@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-image: url("/public/assets/Sprinkle.svg");
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  padding: 1em 2em;
+  border-radius: 15px;
+  border-width: 0;
+  background-color: #D1D7DD;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-primary {
+  background-color: #0E2A47;
+  color: #FFFFFF;
+  font-weight: 600;
 }
